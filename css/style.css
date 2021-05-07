@@ -1,22 +1,23 @@
 h1{
-  color: #0000FF ;
+ color:#0000FF;
 }
 .change {
-  color: blue;
-  text-align: right;
-}
-.firstview-jpeg {　
-  position:relative; 
-  top-320px; z-index: index 1;
-  left:1419px
-}
-.emphasis{
-  font-size: 32px;
-  font-weight: bold;
+  color:blue;
+   text-align: right;
  }
- .first {
- background-color: blue;
- background-position: relative; top: 50px; z-index：２；
- width: 2143px;
- height: 100px;
+ .firstview-jpeg {　
+   position:relative; -50px; z-index: index 1;
+   left: 20px;
+   position:relative; top-320px; z-index: index 1;
+   left: 1419px;
  }
+ .emphasis{
+   font-size: 32px;
+   font-weight: bold;
+  }
+  .first {
+  background-color: blue;
+  background-position: relative; top: 50px; z-index:2;
+  width:2143px;
+  height:100px;
+  } 
