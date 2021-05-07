@@ -5,10 +5,10 @@ h1{
   color:blue;
    text-align: right;
  }
- .firstview-jpeg {　
-   position:relative; -50px; z-index: index 1;
+ .firstview-jpeg {
+   position:relative; -50px; z-index: 1;
    left: 20px;
-   position:relative; top-320px; z-index: index 1;
+   position:relative; top-320px; z-index: 1;
    left: 1419px;
  }
  .emphasis{
