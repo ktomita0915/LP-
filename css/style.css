@@ -6,9 +6,9 @@ h1{
    text-align: right;
  }
  .firstview-jpeg {
-   
-   position:relative; ; z-index: 1;
-   right: 1419px;
+   position: absolute;
+   top :30%
+　
  }
  .emphasis{
    font-size: 32px;
@@ -16,7 +16,8 @@ h1{
   }
   .first {
   background-color: blue;
-  background-position: relative; top: 50px; z-index:2;
-  width:2143px;
-  height:100px;
+  position: relative; 
+  width:1500px;
+  height:150px;
   } 
+  
