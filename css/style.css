@@ -3,7 +3,7 @@ h1{
 }
 .change {
   color:blue;
-   text-align: right;
+  text-align: right;
  }
  .firstview-jpeg {
    position: relative;
@@ -11,15 +11,17 @@ h1{
  }
 img{
   position: absolute;
+  top: 50px;
+  left: 650px;
 }
  .emphasis{
    font-size: 32px;
    font-weight: bold;
-  }
+}
   .first {
   background-color: blue;
-  position: relative; 
-  width:1500px;
+  width: 700px;
   height:150px;
   }
+
 
