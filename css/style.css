@@ -1,9 +1,16 @@
 h1{
  color:#0000FF;
 }
-.change {
+.parent {
   color:blue;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+ }
+ .child{
+   width: 100px;
+   padding: 10px;
+   margin: 10px;
+
  }
  .firstview-jpeg {
    position: relative;
@@ -22,6 +29,7 @@ img{
   background-color: blue;
   width: 700px;
   height:150px;
+  margin-bottom: 500px;
   }
 
 
