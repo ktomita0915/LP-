@@ -1,7 +1,7 @@
-h1{
+.parent{
  color:#0000FF;
 }
-.parent {
+change {
   color:blue;
   display: flex;
   justify-content: flex-end;
