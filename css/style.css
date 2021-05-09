@@ -1,5 +1,6 @@
 .parent{
  color:#0000FF;
+ display: flex;
 }
 change {
   color:blue;
