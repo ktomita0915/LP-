@@ -1,39 +1,198 @@
-
-.parent{
- color:#0000FF;
- display: flex;
+.a{
+  text-decoration: none;
+  color: inherit;
 }
-change {
-  color:blue;
+.header {
   display: flex;
-  justify-content: flex-end;
-  margin: 10px;
- }
- .child{
-   width: 100px;
-   padding: 10px;
-   margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  color:#888888
+}
+.header-ttl{
+  font-size: 24px;
+  width: 80%;
+}
+.nav-list{
+  text-align: right;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.header-nav-list{
+  display: flex;
+  font-weight: bold;
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
 
- }
- .firstview-jpeg {
-   position: relative;
-   top :30%
- }
-img{
+ul{
+  list-style: none;
+  margin:0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li{
+  margin:0 0 0 15px;
+  font-size: 14px;
+}
+.relative {
+  position: relative;
+}
+.relative_img{
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+.absolute {
   position: absolute;
-  top: 50px;
-  left: 650px;
+  top: 50%;
+  left: 20%;
+  font-size: 50px;
 }
- .emphasis{
-   font-size: 32px;
-   font-weight: bold;
+p::before{
+ content:”全ての人の";
+color:red;
 }
-  .first {
-  background-color: blue;
-  width: 700px;
-  height:150px;
-  margin-bottom: 500px;
+P::after {
+  content:"にコミットする"
+  color:red;
+}
+.span {
+  line height:24px
+  color: #808080;
+}
+
+p.font1{
+  font-family: ’Comic Sans MS’
+}
+
+.news{
+  padding:300px 0;
+  background: red;
+}
+.inner{
+  width: 80%;
+  background-color: #fff
+  margin:0 auto;
+  padding: 65px 0 100px
+}
+.sub_ttl{
+  font-size: 30px
+  text-align: center;
+  margin-bottom: 40px;
+}
+/*ここからがニューズ記事css*/
+dl{
+  width: 500px;
+}
+dt{
+  border-bottom:1px soild #ccc;
+  float:left;
+  padding:10px 5px;
+}
+dd{
+  border-bottom:1px solid #ccc;
+  margin-left:100px;
+  padding:10px 5px;
+}
+a{
+  background-color:red;
+  border-radius:5px;
+  color:#fff;
+  margin:0 20px;
+  padding:5px 15px;
+  text-decoration:none;
+}
+
+}.about{
+  background-color: #ebeebe
+  padding: 60px 0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.about_img img{
+  width: 100%
+}
+.about_img img{
+  margin-top: -80px;
+  width: 40%;
+}
+about_content{
+  width: 40%;
+}
+.flex_items{
+  display: flex;
+  justify-content: space-between;
+}
+.practice_card{
+  width: 30%
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card_img img{
+  width: 100%;
+}
+.card_content{
+  padding: 15px 25px;
+}
+.card_ttl{
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400px;
+}
+.card_cat{
+  padding: 5px 10px;
+  background: #008888;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
+.tag{
+  font-size: 14px;
+  text-align: right;
+}
+.card_tag{
+  display: inline-block;
+  color: #008888
+}
+.card_date{
+  display:inline-block;
+  margin-left: 20px;
+  color: #888888
+}
+.download_bnt{
+  position: relative;
+  background-color: #55bbbb;
+  width: 200px;
+  display: block;
+  padding: 18;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 100px auto;
+}
+table{
+  width: 60%;
+  border-collapse: collapse;
+}
+table th,
+
+table td{
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+table th{
+  font-weight: bold;
+  background-color: #dedede;
   }
-
-
-
+  a.btn-gradient{
+    border-radius: 100vh;
+  }
